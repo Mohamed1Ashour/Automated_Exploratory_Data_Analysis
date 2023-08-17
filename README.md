@@ -26,10 +26,23 @@ Open a terminal or command prompt and navigate to the cloned directory.
 Run the script by executing:
 python data_analyzer.py
 
-# How It Works
+## How It Works
 The Data Analyzer Tool script is structured as follows:
 
 Import necessary libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Keyboard.
 Define a DataAnalyzer class that encapsulates data loading, analysis, and visualization methods.
 Instantiate the class, load the data, and provide an interactive menu for users to choose analysis functions.
 The tool provides various descriptive statistics, correlation matrices, outlier detection, and visualization functions.
+
+## Customization and Contribution
+The script is designed to be extensible. You can:
+
+Add new analysis functions to the DataAnalyzer class.
+Modify existing functions to fit specific requirements.
+Enhance the tool's functionality and visualization capabilities.
+Feel free to contribute to the project by submitting pull requests or reporting issues.
+
+## Acknowledgements
+The Data Analyzer Tool is inspired by the need for a streamlined data analysis process. It leverages the power of popular Python libraries to provide users with insightful insights into their datasets.
+
+
