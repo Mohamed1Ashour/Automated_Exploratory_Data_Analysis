@@ -15,7 +15,7 @@ class DataAnalyzer:
         if self.file_path.endswith('.csv'):
             self.df = pd.read_csv(self.file_path)
 
-        elif self.file_path.endswith('.xlsx'):
+        elif self.file_path.endswith('.xls'):
             self.df = pd.read_excel(self.file_path)
 
         self.categorical_data = self.df.select_dtypes(
