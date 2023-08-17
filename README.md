@@ -24,6 +24,7 @@ pip install pandas numpy matplotlib seaborn keyboard
 Clone this repository to your local machine.
 Open a terminal or command prompt and navigate to the cloned directory.
 Run the script by executing:
+python data_analyzer.py
 
 # How It Works
 The Data Analyzer Tool script is structured as follows:
