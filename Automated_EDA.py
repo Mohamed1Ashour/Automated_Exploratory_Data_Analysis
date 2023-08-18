@@ -17,6 +17,9 @@ class DataAnalyzer:
 
         elif (self.file_path.endswith('.xls')) or (self.file_path.endswith('.xlsx')):
             self.df = pd.read_excel(self.file_path)
+            
+        elif self.file_path.endwith('.dta'):
+            self.df = pd.read_stata(self.file_path)
 
         self.categorical_data = self.df.select_dtypes(
             include=['object']).columns
