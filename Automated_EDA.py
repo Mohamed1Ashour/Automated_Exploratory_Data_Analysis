@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 import keyboard
-
+from sqlalchemy import create_engine
 
 class DataAnalyzer:
     def __init__(self, file_path):
